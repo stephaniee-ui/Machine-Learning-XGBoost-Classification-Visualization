@@ -1,39 +1,10 @@
 # Machine-Learning-XGBoost-Classification-Visualization
-DESCRIPTION
------------
-(Tableau files are not stored in this repository)
 
 This project uses an XGBoost model to perform wildfire prediction and visualize the results along with spatial and temporal and distribution of wildfires through interactive Tableau dashboards.
 
 The code (`XGBoost.py`) and (`xgbf.py`) handles data loading, preprocessing, training, and evaluation of the model. 
 
-The Tableau file (`Wildfire_Analysis.twbx`) use the model’s output and multiple analytic insights for advanced visualization dashboards.
-
-INSTALLATION
-------------
-1. Ensure to have Python 3.x installed.
-2. Install required Python packages:
-
-   pip install xgboost pandas scikit-learn numpy
-
-3. Tableau is required to open `.twbx` files (Tableau Desktop or Tableau Public).
-
-EXECUTION
----------
-1. Run the model training and output script:
-
-   python xgbf.py
-
-   - This script will read input data (`Cleaned_CA_Env_Data`), train the model, and get the best combination of parameters for xgboost
-
-   python XGBoost.py
-
-   - This script will use the model with the best combination to evaluate our test data.
-
-2. Open Tableau:
-   - Load `Wildfire_Analysis.twbx` using Tableau.
-
-3. Explore the dashboard to visualize model prediction, performance and other analytical insights.
+(Tableau file is not included in this repository, but snapshots of the dashboards can be viewed in the poster.)
 
 FILES
 -----
