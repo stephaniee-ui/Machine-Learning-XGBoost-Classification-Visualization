@@ -10,7 +10,7 @@ FILES
 -----
 ```plaintext
 .
-├── README.txt 							               # This user guide
+├── README.txt 							               # The user guide
 ├── CODE/
 │   ├── CA_Env_Data_Cleansing.py				         # Preprocessing script for CA Environmental Conditions dataset
 │   ├── CA_Environmental_Profiling_Report.html		# EDA report on California environmental data
